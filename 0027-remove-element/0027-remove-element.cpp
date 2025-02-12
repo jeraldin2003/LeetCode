@@ -10,7 +10,7 @@ public:
                 x++;
             }
         }
-        for(int i=0;i<arr.size();i++){
+        for(int i=0;i<x;i++){
             nums[i]=arr[i];
         }
     return x;
