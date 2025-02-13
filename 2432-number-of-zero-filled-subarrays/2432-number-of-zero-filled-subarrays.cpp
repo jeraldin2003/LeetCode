@@ -1,5 +1,5 @@
 class Solution {
-public:
+public:        ///////pattern understanding if [0,0,1,0,0,0] for 0,0  2+1 , 0 0 0  3+2+1, for n n(n+)/2 gauss summation for optimal approach you will keep adding count to subarray ie.  1+2 +0 + 1+2+3 =  5+4/1+2+1+2+3 =9
     long long zeroFilledSubarray(vector<int>& nums) {
         int n= nums.size();
         long long count=0;
