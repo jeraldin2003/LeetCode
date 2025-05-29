@@ -4,6 +4,8 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+
+        #BruteForce
         string = ""
         x = s.lower()
         length = len(x)
@@ -20,3 +22,4 @@ class Solution(object):
             else:
                 return False
         return True
+        
